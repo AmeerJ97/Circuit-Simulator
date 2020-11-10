@@ -5,8 +5,8 @@ This function can perform the DC analysis on Resistors, Capacitors, Voltage Sour
 # Calling Convention
 Modify the Circuit_diodeck1.m file to include the circuit components.
 ## Examples
-vol(Node1, Node2, Value) 
-res(Node1,Node2,Value)
-res(Node1,Node2,Value)
-cap(Node1,Node2,Value);
-diode('Diode Name',Node1,Node22,Is,Vt);
+vol(Node1, Node2, Value)   
+res(Node1,Node2,Value)  
+res(Node1,Node2,Value)  
+cap(Node1,Node2,Value);  
+diode('Diode Name',Node1,Node22,Is,Vt);  
