@@ -5,9 +5,9 @@ This function can perform the DC analysis on Resistors, Capacitors, Voltage Sour
 # Calling Convention
 Modify the Circuit_diodeck1.m file to include the circuit components.
 ## Examples
-vol(Node1, Node2, Value) Value in volts 
-cur(Node1, Node2, Value) Value in Amperes 
-res(Node1,Node2,Value)   Value in Ohms  
+vol(Node1, Node2, Value) Value in volts    
+cur(Node1, Node2, Value) Value in Amperes   
+res(Node1,Node2,Value)   Value in Ohms    
 cap(Node1,Node2,Value);  Value in Farads  
 diode('Diode Name',Node1,Node2,Is,Vt);  Is is in Amperes and Vt is in Volts  
  
